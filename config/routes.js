@@ -34,7 +34,8 @@ module.exports.routes = {
 
   '/': {
     view: 'homepage'
-  }
+  },
+  'GET /posts': 'PostsController.index'
 
   /***************************************************************************
   *                                                                          *
