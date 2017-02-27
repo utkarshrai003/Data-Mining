@@ -24,5 +24,5 @@ module.exports = {
 			res.send(200, {message: "Vist file in /public/data/categorized_posts to get the record"});
 		});
 	});
-}
+ }
 }
