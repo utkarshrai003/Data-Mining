@@ -10,6 +10,15 @@ module.exports = {
 
   attributes: {
 
+    "Id": {
+      type: "integer",
+      unique: true
+    },
+    "OwnerUserId": {
+      model: "users",
+      type: "integer",
+      index: true
+    }
   },
 
   // Method to update Tags from string to object
