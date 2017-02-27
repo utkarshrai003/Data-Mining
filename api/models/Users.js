@@ -8,7 +8,14 @@
 module.exports = {
 
   attributes: {
+    "Id": {
+      type: 'integer',
+      unique: true
+    },
+    "posts": {
+      collection: 'posts',
+      via: 'OwnerUserId'
+    }
+  },
 
-  }
 };
-
